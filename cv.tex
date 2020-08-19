@@ -1,0 +1,113 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Max Weiss}
+\address{281 Hurley St \\ Cambridge, MA 02141 \\ (617) $\!$694-8450} % Your address
+\address{
+max.morgan.weiss@gmail.com
+  \\ https://github.com/wm-ax} % Your phone number and email
+
+% todo: overview; "soft skills"
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Massachusetts, Boston} \hfill {\em September 2018 - Present} \\ 
+M.S. in Computer Science, forthcoming\\
+Overall GPA: 4.0  (27/30 required credits completed)
+
+{\bf University of British Columbia} \hfill {\em September 2007 - June 2013} \\ 
+Ph.D. in Philosophy
+
+{\bf Wesleyan University} \hfill {\em September 1997 - June 2001} \\ 
+B.A. in Philosophy
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Boston College}{September 2015 - December 2017}{Lecturer}{Boston, MA}
+\item Taught logic to undergraduate and graduate students
+\item Composed textbook, all assignments and exams
+\item Developed Django-based website to circulate class materials (including grades)
+\end{rSubsection}
+
+\begin{rSubsection}{Boston University}{September 2013 - May 2015}{Postdoc}{Boston, MA}
+\item Published research in logic
+\item Taught courses on logic, paradoxes, and history of philosophy
+\end{rSubsection}
+
+\begin{rSubsection}{Bigelow Community Daycare}{September 2018 - present}{Scheduler (volunteer)}{Somerville, MA}
+\item Built a Django-based site to facilitate scheduling of parent worktime shifts
+\item Designed data models for various event and person types
+\item Customized authentication system with several user models and varying privileges
+\item Created calendar interface for users to submit preferences and revise shifts
+\item Implemented algorithm to generate optimal schedules from collected preferences
+\end{rSubsection}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Python, Java, Rust, Javascript \\
+Frameworks & Django, React\\
+Testing & TDD, Unittest, JUnit\\
+Protocols \& APIs & JSON, YAML, XML, REST \\
+Databases & PostgreSQL, Oracle PL/SQL \\
+Tools \& OSs & Linux, MacOS, Emacs
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}
+
+
+``Logic in the \emph{Tractatus}''.  \emph{Review of Symbolic Logic} (2017) 10: 1-50.
+
+ ``A closer look at manifest consequence''.  \emph{Journal of Philosophical Logic} (2014) 43: 471-499.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
